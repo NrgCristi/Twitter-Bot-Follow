@@ -4,8 +4,8 @@ import time
 
 class TwitterBot:
     def __init__(self,username,password):
-        self.username = username
-        self.password = password
+        self.username = your username
+        self.password = your password
         self.bot = webdriver.Firefox
 
     def login(self):
