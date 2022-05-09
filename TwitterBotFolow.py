@@ -13,7 +13,7 @@ class TwitterBot:
         bot.get('https://twitter.com/')
         time.sleep(3)
         email = bot.find_element_by_class_name('email-input')
-        password = bot.find_element_by_name('session[password]')
+        password = bot.find_element_by_name('session[YOUR PASSWORD]')
         email.clear()
         password.clean()
         email.send_keys(self_username)
